@@ -9,7 +9,10 @@ const replaceTextContent = ({selectors, key, nodeIndex}) => {
 
     const targetElem = nodeIndex ? elem.childNodes[nodeIndex] : elem
     const preWhiteSpace = targetElem.textContent.match(/^\s*/)[0]
-    targetElem.textContent = `${preWhiteSpace}${t[key]}`
+    const newString = `${preWhiteSpace}${t[key]}`
+    if(targetElem.textContent != newString) {
+      targetElem.textContent = newString
+    }
   })
 }
 
@@ -25,5 +28,11 @@ const observer = new MutationObserver(() => {
 observer.observe(document.body, {
   attributes: false,
   childList: true,
-  characterData: true
+  characterData: true,
 })
+
+setInterval(() => {
+  targets.forEach((target) => {
+    replaceTextContent(target)
+  })
+}, 2000)
