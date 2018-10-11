@@ -1,0 +1,15 @@
+{
+  "name": "Monday.com Translator",
+  "version": "1.0",
+  "description": "Monday.com i18n plugin",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.monday.com/*"
+      ],
+      "js": ["build/dist.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+export default {
+  inbox: '受信箱',
+  myWeek: '今週',
+  boards: 'ボード',
+  upgrade: 'アップグレード',
+  new: '新規',
+  shareableBoards: '共有ボード',
+  privateBoards: 'プライベートボード',
+  open: 'オープン',
+  allUpdates: '全てのアップデート',
+  inviteTeamMembers: 'チームに招待',
+  past: '過去',
+  today: '今日',
+  upcoming: '近日中',
+  done: '終了',
+  addView: 'ビューを追加',
+  unsubscribe: '購読解除',
+}
