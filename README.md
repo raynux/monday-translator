@@ -15,5 +15,3 @@ Alpha版。 実用性は低いです。
 ```sh
 yarn watch
 ```
-
-その後、`chrome://extensions/` からプラグインをリロード

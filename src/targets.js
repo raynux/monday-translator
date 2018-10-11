@@ -93,6 +93,13 @@ export default [
       '#content > div > div > div.board-wrapper > div.board-header > div.board-header-content-wrapper > div.board-header-main > div.board-header-right > div > div.board-actions-section.subscribers-list-wrapper > div.subscribe-button > a'
     ]
   },
+  {
+    key: 'addGroupOfPulse',
+    selectors: [
+      '#content > div.dialog-node > div > div > div > div.ds-menu-inner > div:nth-child(1) > div:nth-child(1) > span'
+    ]
+  },
+
   // {
   //   key: '',
   //   selectors: [

@@ -23,7 +23,7 @@ const observer = new MutationObserver(() => {
   })
 })
 observer.observe(document.body, {
-  attributes: true,
+  attributes: false,
   childList: true,
   characterData: true
 })

@@ -11,5 +11,11 @@
       "js": ["build/dist.js"],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "background": {
+    "scripts": [
+      "src/hot-reload.js",
+      "src/background.js"
+    ]
+  }
 }

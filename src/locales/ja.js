@@ -15,4 +15,5 @@ export default {
   done: '終了',
   addView: 'ビューを追加',
   unsubscribe: '購読解除',
+  addGroupOfPulse: 'パルスグループを作成',
 }
